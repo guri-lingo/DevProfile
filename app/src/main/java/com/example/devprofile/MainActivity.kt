@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val bitmap = BitmapFactory.decodeResource(resources, R.drawable.devslopesprofilelogo)
-        val rounded = RoundedBitmapDrawableFactory.create(resources, bitmap)
-        rounded.cornerRadius = 30f
-        //rounded.isCircular = true
-        logo.setImageDrawable(rounded)
+        //val bitmap = BitmapFactory.decodeResource(resources, R.drawable.devslopesprofilelogo)
+        //val rounded = RoundedBitmapDrawableFactory.create(resources, bitmap)
+        //rounded.cornerRadius = 30f
+        ////rounded.isCircular = true
+        //logo.setImageDrawable(rounded)
     }
 }
